@@ -44,7 +44,8 @@ void Player::pireChanson(){
             pire = i;
         }
     }
-    cout << "La chanson numéro " << pire << "a le plus mauvais score du joueur" << endl;
+    pire += 1;
+    cout << "La chanson numéro " << pire << " a le plus mauvais score du joueur" << endl;
 }
 
 
@@ -62,6 +63,8 @@ void Player::meilleurChanson(){
             best = i;
         }
     }
-    cout << "La chanson numéro " << best << "a le meilleur score du joueur" << endl;
+    best +=1;
+
+    cout << "La chanson numéro " << best << " a le meilleur score du joueur" << endl;
 
 }
