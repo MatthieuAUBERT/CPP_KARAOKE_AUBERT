@@ -1,0 +1,8 @@
+En créant une liste dynamique comme attribut privé du nombre de chanson,
+on peut ensuite facilement ajouter ou supprimer des chansons dans une méthode
+supplémentaire. Il suffirait ensuite de créer une autre liste dynamique pour
+les scores et ainsi reformuler chaque méthode pour qu'elle prenne non pas 
+les scores un par un mais les listes dynamiques directement. Le reste se résume
+à quelques modifications internes à chaque méthode.
+On pourrait même créer une sous-classe "Chanson" (comme dans le fichier UML) pour
+donner à chaque chanson un côté unique.
