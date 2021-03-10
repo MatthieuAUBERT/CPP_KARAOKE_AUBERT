@@ -2,6 +2,15 @@
 
 using namespace std;
 
+Player::Player(){
+    pseudo = "Un mec";
+    score1 = 0;
+    score2 = 0;
+    score3 = 0;
+    score4 = 0;
+    score5 = 0;
+}
+
 Player::Player(std::string name, int scoreone, int scoretwo, int scorethree, int scorefour,int scorefive): pseudo(name), score1(scoreone),score2(scoretwo),score3(scorethree),score4(scorefour),score5(scorefive)
 {
 

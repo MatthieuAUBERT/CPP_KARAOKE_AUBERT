@@ -4,6 +4,7 @@
 
 class Player {
     public:
+        Player();
         Player(std::string name, int scoreone, int scoretwo, int scorethree, int scorefour,int scorefive);
         void moyenneScore();
         void scoreTotal();
