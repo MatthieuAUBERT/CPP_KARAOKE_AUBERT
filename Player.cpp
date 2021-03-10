@@ -22,10 +22,37 @@ void Player::scoreTotal(){
 
 
 void Player::pireChanson(){
+    int list[5];
+    list[0] = score1;
+    list[1] = score2;
+    list[2] = score3;
+    list[3] = score4;
+    list[4] = score5;
 
+    int pire = 0;
+    for (int i(0); i<5; i++){
+        if (list[i]<list[pire]){
+            pire = i;
+        }
+    }
+    cout << "La chanson numéro " << pire << "a le plus mauvais score du joueur" << endl;
 }
 
 
 void Player::meilleurChanson(){
+    int list[5];
+    list[0] = score1;
+    list[1] = score2;
+    list[2] = score3;
+    list[3] = score4;
+    list[4] = score5;
+
+    int best = 0;
+    for (int i(0); i<5; i++){
+        if (list[i]>list[best]){
+            best = i;
+        }
+    }
+    cout << "La chanson numéro " << best << "a le meilleur score du joueur" << endl;
 
 }
